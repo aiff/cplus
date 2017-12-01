@@ -2,7 +2,7 @@
 #include <QApplication>
 
 int main(int argc, char *argv[])
-{
+{  //init
     QApplication a(argc, argv);
     Widget w;
     w.show();
