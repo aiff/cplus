@@ -2,7 +2,7 @@
 
 #include "object.h"
 using namespace  std;
-
+//  66  69课程 和外传篇的内容
 using namespace datastru;
 class  test:public  object
 {
