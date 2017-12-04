@@ -24,7 +24,10 @@ DEFINES += QT_DEPRECATED_WARNINGS
 
 
 SOURCES += main.cpp\
-        widget.cpp
+        widget.cpp \
+    object.cpp
 
 HEADERS  += widget.h \
-    samrtpoint.h
+    samrtpoint.h \
+    object.h \
+    list.h

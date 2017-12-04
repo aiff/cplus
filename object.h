@@ -1,11 +1,13 @@
 #ifndef OBJECT_H
 #define OBJECT_H
-
-
-class Object
+namespace datastru
+{
+class object
 {
 public:
-    Object();
+      void* operator new (unsigned int  size)  throw();
+      void  operator delete (void* p)   ;
+   virtual ~object()=0;
 };
-
+}
 #endif // OBJECT_H
